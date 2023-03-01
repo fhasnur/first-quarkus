@@ -3,8 +3,12 @@ package id.kawahedukasi;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
+/*
+ * Simple Endpoint with Different HTTP Method
+ */
 @Path("/sample")
-public class SimpleEndpoint {
+public class DifferentHttpMethod {
+
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String get() {
@@ -28,4 +32,8 @@ public class SimpleEndpoint {
     public String delete() {
         return "This is a sample DELETE endpoint";
     }
+
+    /*
+     * Different HTTP Method
+     */
 }
