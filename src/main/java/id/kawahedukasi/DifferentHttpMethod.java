@@ -32,8 +32,4 @@ public class DifferentHttpMethod {
     public String delete() {
         return "This is a sample DELETE endpoint";
     }
-
-    /*
-     * Different HTTP Method
-     */
 }

@@ -4,7 +4,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 /*
- * Simple Different Endpoint with Same Routes Name
+ * Simple Different Endpoint with Same Routes
  */
 @Path("/people")
 @Produces(MediaType.TEXT_PLAIN)
