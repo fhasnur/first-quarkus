@@ -1,4 +1,4 @@
-package id.kawahedukasi;
+package id.kawahedukasi.endpoint.simple;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
