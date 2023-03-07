@@ -1,4 +1,4 @@
-package id.kawahedukasi.endpoint.advance;
+package id.kawahedukasi.endpoint.advance.multiplecontroller;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
